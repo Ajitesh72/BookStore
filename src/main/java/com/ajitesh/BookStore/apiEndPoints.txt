@@ -1,0 +1,16 @@
+#CREATE
+PUT /books/<isbn>
+
+#READ
+GET /books/<isbn>
+GET /books
+
+#UPDATE
+PUT /books/<isbn>
+
+#DELETE
+DELETE /books/<isbn>
+
+#INSTALL
+./mvnw clean install
+./mvnw spring-boot:run
